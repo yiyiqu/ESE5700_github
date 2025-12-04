@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Thu Dec  4 13:30:15 2025 EST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /lcars/home/o/oscarqu/cadenceGPDK/ESE5700_github/SRAM_cell/symbol/symbol.oa.cdslck
-TimeEditLocked                 Thu Dec  4 15:43:47 2025 EST
+FilePathUsedToEditLock         /lcars/home/o/oscarqu/cadenceGPDK/ESE5700_github/INV_MIN/symbol/symbol.oa.cdslck
+TimeEditLocked                 Thu Dec  4 16:24:52 2025 EST
