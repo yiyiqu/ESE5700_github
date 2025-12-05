@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<statedb ICVersion="IC6.1.8-64b.83" modifiedTime="12/04/2025 19:09:25" version="5">active
+	<Test Name="ESE5700_github:ROW_DECODER_test:1">
+		<component Name="adeInfo" Type="skillTable">adeinfo
+			<field Name="designInfo" Type="list">("ESE5700_github" "ROW_DECODER_test" "schematic" "spectre")</field>
+			<field Name="projectDir" Type="string">"/lcars/home/l/lidylan/simulation/ESE5700_github/ROW_DECODER_test/maestro/results/maestro/.tmpADEDir_lidylan/ESE5700_github:ROW_DECODER_test:1/simulation"</field>
+			<field Name="descriptiontext" Type="string">"None"</field>
+		</component>
+		<component Name="rfstim" Type="skillTable">rfstim</component>
+		<component Name="nil" Type="skillTable">asiEnvSaveTable</component>
+		<component Name="convergence" Type="skillTable">sigList
+			<partition Name="Signallist">
+				<field Name="forceNodes" Type="list">nil</field>
+				<field Name="nodeSets" Type="list">nil</field>
+				<field Name="initConds" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="cosimOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="cosim">
+				<field Name="enable" Type="list">nil</field>
+				<field Name="inputs" Type="list">nil</field>
+				<field Name="whenStartMatlab" Type="string">"no"</field>
+				<field Name="design" Type="string">""</field>
+				<field Name="timeout" Type="fixnum">60</field>
+				<field Name="matlabStartCmd" Type="string">"matlab"</field>
+				<field Name="server" Type="string">""</field>
+				<field Name="port" Type="fixnum">38520</field>
+				<field Name="outputs" Type="list">nil</field>
+				<field Name="matlabStartDir" Type="string">""</field>
+				<field Name="serverr" Type="string">"localhost"</field>
+			</partition>
+		</component>
+		<component Name="devCheckingSetup" Type="skillTable">stateDpl
+			<field Name="stateDpl" Type="skillDpl">
+				<field Name="devCheckingEnabled" Type="string">"no"</field>
+				<field Name="asserts" Type="list">nil</field>
+				<field Name="inclusiveFilters" Type="list">nil</field>
+				<field Name="exclusiveFilters" Type="list">nil</field>
+				<field Name="options" Type="skillDpl">
+					<field Name="checklimit" Type="skillDpl">
+						<field Name="pzDisableAll" Type="list">nil</field>
+						<field Name="pzEnableAll" Type="list">nil</field>
+						<field Name="pzSeverity" Type="string">"None"</field>
+						<field Name="noiseDisableAll" Type="list">nil</field>
+						<field Name="noiseEnableAll" Type="list">nil</field>
+						<field Name="noiseSeverity" Type="string">"None"</field>
+						<field Name="spDisableAll" Type="list">nil</field>
+						<field Name="spEnableAll" Type="list">nil</field>
+						<field Name="spSeverity" Type="string">"None"</field>
+						<field Name="acDisableAll" Type="list">nil</field>
+						<field Name="acEnableAll" Type="list">nil</field>
+						<field Name="acSeverity" Type="string">"None"</field>
+						<field Name="dcOpDisableAll" Type="list">nil</field>
+						<field Name="dcOpEnableAll" Type="list">nil</field>
+						<field Name="dcOpSeverity" Type="string">"None"</field>
+						<field Name="dcDisableAll" Type="list">nil</field>
+						<field Name="dcEnableAll" Type="list">nil</field>
+						<field Name="dcSeverity" Type="string">"None"</field>
+						<field Name="tranDisableAll" Type="list">nil</field>
+						<field Name="tranEnableAll" Type="list">nil</field>
+						<field Name="tranSeverity" Type="string">"None"</field>
+						<field Name="tranStopTime" Type="list">nil</field>
+						<field Name="tranStartTime" Type="list">nil</field>
+					</field>
+				</field>
+			</field>
+		</component>
+		<component Name="environmentOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="envOpts">
+				<field Name="enableNewMultiHarmCut" Type="list">nil</field>
+				<field Name="enableArclength" Type="list">nil</field>
+				<field Name="enableNoiseRefactor" Type="symbol">t</field>
+				<field Name="switchViewList" Type="list">("spectre" "cmos_sch" "cmos.sch" "schematic" "veriloga")</field>
+				<field Name="bus_delimiter" Type="string">""</field>
+				<field Name="termMismatch" Type="string">"ignore"</field>
+				<field Name="other_opts" Type="string">""</field>
+				<field Name="liclog" Type="list">nil</field>
+				<field Name="enableDiagnose" Type="list">nil</field>
+				<field Name="lsusp" Type="list">nil</field>
+				<field Name="enablePhaseNoiseBW" Type="symbol">t</field>
+				<field Name="extra_port" Type="string">"false"</field>
+				<field Name="paramRangeCheckFile" Type="string">""</field>
+				<field Name="printComments" Type="list">(nil nil)</field>
+				<field Name="cmd64bit" Type="list">nil</field>
+				<field Name="port_order" Type="string">"sch"</field>
+				<field Name="definitionFiles" Type="list">nil</field>
+				<field Name="sst2usecolon" Type="list">nil</field>
+				<field Name="termDirectionMismatch" Type="string">"ignore"</field>
+				<field Name="case_sensitive" Type="string">"false"</field>
+				<field Name="displayToolTip" Type="symbol">t</field>
+				<field Name="stopViewList" Type="list">("spectre")</field>
+				<field Name="pllPlugin" Type="string">""</field>
+				<field Name="analysisOrder" Type="list">("pz" "dcmatch" "stb" "tran" "envlp" "ac" "dc" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch")</field>
+				<field Name="setEngNotation" Type="list">nil</field>
+				<field Name="vcoType" Type="string">""</field>
+				<field Name="pllWizardinfo" Type="string">""</field>
+				<field Name="licQueueSleep" Type="string">""</field>
+				<field Name="autoDisplay" Type="symbol">t</field>
+				<field Name="savestate" Type="string">""</field>
+				<field Name="userCmdLineOption" Type="string">""</field>
+				<field Name="dspfFile" Type="list">nil</field>
+				<field Name="firstRun" Type="symbol">t</field>
+				<field Name="restart" Type="string">""</field>
+				<field Name="licQueueTimeOut" Type="string">"900"</field>
+				<field Name="cpfIsVMSEnabled" Type="symbol">t</field>
+				<field Name="stimulusFile" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="graphicalStimuli" Type="skillTable">graphicalStimTable
+			<field Name="GLOBALS" Type="skillDpl"></field>
+			<field Name="INPUTS" Type="skillDpl"></field>
+		</component>
+		<component Name="mdlOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="mdlOpts">
+				<field Name="mdlFrom" Type="string">"From File"</field>
+				<field Name="precFormat" Type="string">"%.15g"</field>
+				<field Name="libName" Type="string">""</field>
+				<field Name="mdlFile" Type="string">""</field>
+				<field Name="engFormat" Type="fixnum">6</field>
+				<field Name="enable" Type="list">nil</field>
+				<field Name="additionals" Type="string">""</field>
+				<field Name="formatType" Type="string">"Default"</field>
+				<field Name="viewName" Type="string">""</field>
+				<field Name="cellName" Type="string">""</field>
+			</partition>
+		</component>
+		<component Name="modelSetup" Type="skillTable">modelSetup
+			<field Name="modelFiles" Type="list">(("/lcars/software/linux/x86_64/ic-design/design_kits/gpdk045_v_6_0/gpdk045/../models/spectre/gpdk045.scs" "mc"))</field>
+		</component>
+		<component Name="opPoints" Type="skillTable">opPoints
+			<field Name="opPoints" Type="list">nil</field>
+		</component>
+		<component Name="otherInfo" Type="skillTable">otherInfo
+			<field Name="mtsMode" Type="list">nil</field>
+		</component>
+		<component Name="outputs" Type="skillTable">outputs
+			<partition Name="outputsCommon">
+				<partition Name="envSaveOptions">
+					<field Name="extremesInfo" Type="list">nil</field>
+					<field Name="assertsInfo" Type="list">nil</field>
+					<field Name="designParamValInfo" Type="symbol">t</field>
+					<field Name="subcktsInfo" Type="symbol">t</field>
+					<field Name="primitivesInfo" Type="symbol">t</field>
+					<field Name="outputParamInfo" Type="symbol">t</field>
+					<field Name="elementInfo" Type="symbol">t</field>
+					<field Name="modelParamInfo" Type="symbol">t</field>
+					<field Name="fastViewOption" Type="list">nil</field>
+					<field Name="simOutputFormat" Type="string">"sst2"</field>
+					<field Name="outputFrame" Type="string">""</field>
+					<field Name="captab_threshold" Type="string">""</field>
+					<field Name="captab_sort" Type="string">"name"</field>
+					<field Name="captab_detail" Type="string">"node"</field>
+					<field Name="infoOptions" Type="list">(("modelParameter" "models" "rawfile" "" "" "" t) ("element" "inst" "rawfile" "" "" "" t) ("outputParameter" "output" "rawfile" "" "" "" t) ("designParamVals" "parameters" "rawfile" "" "" "" t) ("primitives" "primitives" "rawfile" "" "" "" t) ("subckts" "subckts" "rawfile" "" "" "" t) ("asserts" "assert" "rawfile" "" "" "" nil) ("extremeinfo" "all" "logfile" "" "yes" "" nil) ("&lt;Click_To_Add&gt;" "none" "rawfile" "" "" "" nil))</field>
+					<field Name="saveFrame" Type="string">""</field>
+					<field Name="save" Type="string">"allpub"</field>
+					<field Name="pwr" Type="string">""</field>
+					<field Name="nestlvl" Type="string">""</field>
+					<field Name="currents" Type="string">""</field>
+					<field Name="subcktprobelvl" Type="string">""</field>
+					<field Name="useprobes" Type="string">""</field>
+					<field Name="probelvl" Type="string">""</field>
+					<field Name="saveahdlvars" Type="string">""</field>
+					<field Name="pcellFrame" Type="string">""</field>
+					<field Name="subcktoppoint" Type="list">nil</field>
+					<field Name="savePcell" Type="string">""</field>
+					<field Name="savePcellSelect" Type="string">""</field>
+					<field Name="clearPcell" Type="string">""</field>
+					<field Name="keepRegisteredPcell" Type="symbol">t</field>
+					<field Name="keepRegPcellLabel" Type="string">""</field>
+					<field Name="timewindFrame" Type="string">""</field>
+					<field Name="enableTimeWindowSetup" Type="list">nil</field>
+					<field Name="timeWindLabel" Type="string">""</field>
+					<field Name="timeWindow" Type="string">""</field>
+					<field Name="signalNames" Type="string">""</field>
+					<field Name="time_window" Type="list">nil</field>
+					<field Name="sumInfo" Type="list">nil</field>
+					<field Name="infoFrame" Type="string">""</field>
+				</partition>
+				<field Name="outputList" Type="list">nil</field>
+			</partition>
+			<partition Name="outputsScripts">
+				<field Name="outputList" Type="list">nil</field>
+			</partition>
+			<partition Name="outputsAreaGoal">
+				<field Name="areaGoal" Type="list">nil</field>
+			</partition>
+			<partition Name="outputsOpRegion">
+				<field Name="opRegion" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="paramSetup" Type="skillTable">expr</component>
+		<component Name="simulationFiles" Type="skillTable">_simulationFiles
+			<field Name="definitionFiles" Type="list">nil</field>
+			<field Name="allIncludedPaths" Type="list">nil</field>
+			<field Name="VcdInfoFile" Type="string">""</field>
+			<field Name="VcdFile" Type="string">""</field>
+			<field Name="allVectorFiles" Type="list">nil</field>
+			<field Name="VectorFile" Type="list">nil</field>
+			<field Name="EVcdInfoFile" Type="string">""</field>
+			<field Name="allDefinitionFiles" Type="list">nil</field>
+			<field Name="includePath" Type="string">""</field>
+			<field Name="stimulusFile" Type="list">nil</field>
+			<field Name="hlcheck" Type="string">"off"</field>
+			<field Name="allStimulusFiles" Type="list">nil</field>
+			<field Name="EVcdFile" Type="string">""</field>
+		</component>
+		<component Name="simulatorOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="opts">
+				<field Name="dcEnableAll" Type="list">nil</field>
+				<field Name="pivotdc" Type="string">""</field>
+				<field Name="pivrel" Type="string">"1e-3"</field>
+				<field Name="dcSeverity" Type="string">""</field>
+				<field Name="tranEnableAll" Type="list">nil</field>
+				<field Name="temp" Type="string">"27"</field>
+				<field Name="ivth_vdsmin" Type="string">""</field>
+				<field Name="tranDisableAll" Type="list">nil</field>
+				<field Name="maxnotes" Type="string">"5"</field>
+				<field Name="nthreads" Type="string">""</field>
+				<field Name="tmevthmod" Type="string">""</field>
+				<field Name="tranSeverity" Type="string">""</field>
+				<field Name="ivthl" Type="string">""</field>
+				<field Name="maxwarns" Type="string">"5"</field>
+				<field Name="dcOpDisableAll" Type="list">nil</field>
+				<field Name="scalem" Type="string">"1.0"</field>
+				<field Name="flow" Type="string">""</field>
+				<field Name="redefinedparams" Type="string">""</field>
+				<field Name="dcOpEnableAll" Type="list">nil</field>
+				<field Name="iccapcheck" Type="string">""</field>
+				<field Name="dcOpSeverity" Type="string">""</field>
+				<field Name="pivabs" Type="string">""</field>
+				<field Name="dcDisableAll" Type="list">nil</field>
+				<field Name="icpriority" Type="string">""</field>
+				<field Name="vthmod" Type="string">""</field>
+				<field Name="topcheck" Type="string">""</field>
+				<field Name="checklimitdest" Type="string">"psf"</field>
+				<field Name="convdbg" Type="string">""</field>
+				<field Name="ignshorts" Type="string">""</field>
+				<field Name="checklimitfile" Type="string">""</field>
+				<field Name="gmin_check" Type="string">""</field>
+				<field Name="nport_default_passivity" Type="string">""</field>
+				<field Name="rforce" Type="string">"1"</field>
+				<field Name="try_fast_op" Type="string">""</field>
+				<field Name="additionalArgs" Type="string">""</field>
+				<field Name="dochecklimit" Type="string">""</field>
+				<field Name="quantities" Type="string">""</field>
+				<field Name="note" Type="string">""</field>
+				<field Name="ivthw" Type="string">""</field>
+				<field Name="audit" Type="string">""</field>
+				<field Name="cols" Type="string">"80"</field>
+				<field Name="ivthp" Type="string">""</field>
+				<field Name="inventory" Type="string">""</field>
+				<field Name="narrate" Type="string">""</field>
+				<field Name="nonconv_topnum" Type="string">""</field>
+				<field Name="diagnose" Type="string">""</field>
+				<field Name="opptcheck" Type="string">""</field>
+				<field Name="ivthn" Type="string">""</field>
+				<field Name="nportcompress" Type="string">""</field>
+				<field Name="sensformat" Type="string">""</field>
+				<field Name="nportirfiledir" Type="string">""</field>
+				<field Name="nportirreuse" Type="string">""</field>
+				<field Name="nportbbsfittedfiledir" Type="string">""</field>
+				<field Name="dptran_gmethod" Type="string">""</field>
+				<field Name="gmethod" Type="string">""</field>
+				<field Name="sensbinparam" Type="string">""</field>
+				<field Name="nportunusedportrmin" Type="string">""</field>
+				<field Name="residualtol" Type="string">""</field>
+				<field Name="sensfileonly" Type="string">""</field>
+				<field Name="nportunusedportgmin" Type="string">""</field>
+				<field Name="senstype" Type="string">""</field>
+				<field Name="nportcompressfiledir" Type="string">""</field>
+				<field Name="rthresh" Type="string">""</field>
+				<field Name="dc_pivot_check" Type="string">""</field>
+				<field Name="value1" Type="string">""</field>
+				<field Name="simstat" Type="string">""</field>
+				<field Name="sensfile" Type="string">"../psf/sens.output"</field>
+				<field Name="minr" Type="string">""</field>
+				<field Name="auto_minductor" Type="string">""</field>
+				<field Name="rabsclamp" Type="string">""</field>
+				<field Name="preorder" Type="string">""</field>
+				<field Name="rabsshort" Type="string">""</field>
+				<field Name="rebuild_matrix" Type="string">""</field>
+				<field Name="tranStopTime" Type="string">""</field>
+				<field Name="info" Type="string">""</field>
+				<field Name="tranStartTime" Type="string">""</field>
+				<field Name="useprobes" Type="string">""</field>
+				<field Name="debug" Type="string">""</field>
+				<field Name="tranCheckWindows" Type="string">""</field>
+				<field Name="colslog" Type="string">""</field>
+				<field Name="printstep" Type="string">""</field>
+				<field Name="scalefactor" Type="string">""</field>
+				<field Name="maxwarnstologfile" Type="string">""</field>
+				<field Name="maxnotestologfile" Type="string">""</field>
+				<field Name="title" Type="string">""</field>
+				<field Name="error" Type="string">""</field>
+				<field Name="reltol" Type="string">"1e-3"</field>
+				<field Name="multithread" Type="string">""</field>
+				<field Name="warn" Type="string">""</field>
+				<field Name="notation" Type="string">""</field>
+				<field Name="homotopy" Type="string">""</field>
+				<field Name="approx" Type="string">""</field>
+				<field Name="iabstol" Type="string">"1e-12"</field>
+				<field Name="pzDisableAll" Type="list">nil</field>
+				<field Name="tnom" Type="string">"27"</field>
+				<field Name="tempeffects" Type="string">""</field>
+				<field Name="pzEnableAll" Type="list">nil</field>
+				<field Name="maxrsd" Type="string">""</field>
+				<field Name="gmin" Type="string">"1e-12"</field>
+				<field Name="limit" Type="string">""</field>
+				<field Name="macromodels" Type="string">""</field>
+				<field Name="scale" Type="string">"1.0"</field>
+				<field Name="spEnableAll" Type="list">nil</field>
+				<field Name="spSeverity" Type="string">""</field>
+				<field Name="acDisableAll" Type="list">nil</field>
+				<field Name="acSeverity" Type="string">""</field>
+				<field Name="acEnableAll" Type="list">nil</field>
+				<field Name="noiseDisableAll" Type="list">nil</field>
+				<field Name="pzSeverity" Type="string">""</field>
+				<field Name="vabstol" Type="string">"1e-6"</field>
+				<field Name="noiseEnableAll" Type="list">nil</field>
+				<field Name="digits" Type="string">"5"</field>
+				<field Name="noiseSeverity" Type="string">""</field>
+				<field Name="spDisableAll" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="subckts" Type="skillTable">subckt
+			<field Name="subcktKeepList" Type="list">nil</field>
+		</component>
+		<component Name="turboOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="turboOpts">
+				<field Name="rcrNetFmax" Type="list">nil</field>
+				<field Name="envSwitch" Type="list">nil</field>
+				<field Name="turboSwitch" Type="list">nil</field>
+				<field Name="numThreads" Type="string">""</field>
+				<field Name="psrOption" Type="string">"Default"</field>
+				<field Name="preserveInst" Type="list">nil</field>
+				<field Name="psrFmax" Type="string">""</field>
+				<field Name="psrXpsmsOption" Type="string">"Default"</field>
+				<field Name="mtOption" Type="string">"Auto"</field>
+				<field Name="errorLevel" Type="string">"Do not override"</field>
+				<field Name="psrFmaxRCR" Type="string">""</field>
+				<field Name="preserveOption" Type="string">"None"</field>
+				<field Name="proc_affinity" Type="string">""</field>
+				<field Name="spectreDecouplingCapacitorThreshold" Type="string">""</field>
+				<field Name="psrSwitch" Type="list">nil</field>
+				<field Name="spectreResistorShortingThreshold" Type="string">""</field>
+			</partition>
+		</component>
+	</Test>
+</statedb>
